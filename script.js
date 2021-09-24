@@ -30,16 +30,3 @@ function show_image(i){
   // only make the current dot active
   dots[index].className += " active";
   }
-
-
-  function sayName(){
-    var places = ["Amazonas", "Camboya", "Egipto", "India", "Italia", "Usa", "Vietnam" ];
-
-
-    for(i=0; i<places.length; i++)
-   if(onclick == true) {
-        document.getElementById("place").innerHTML = places[i]
-    }
-    
-  }
-
